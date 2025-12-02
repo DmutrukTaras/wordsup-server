@@ -16,5 +16,6 @@ export const config = {
     pexelsApiKey: process.env.PEXELS_API_KEY || '',
     libreTranslateUrl:
       process.env.LIBRETRANSLATE_URL || 'https://libretranslate.de'
-  }
+  },
+  clientUrl: process.env.CLIENT_URL || 'http://localhost:5173'
 };
